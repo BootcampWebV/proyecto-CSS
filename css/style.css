@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+ul {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(255, 214, 127);
+    height: 30px;
+    width: 120px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+a {
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-decoration: none;
+
+}
+
+ul li:hover {
+    background: greenyellow;
+    text-decoration: underline;
+    
+}
+
+.active {
+    background: red;
+}
+.arrow {
+    margin: 15%;
+}
+
+.block-one {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.title-one {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+    line-height: 1; 
+}
+
+.p-one {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.p-two {
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    border-top: 30px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.block-two {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: orange;
+}
+
+.title-two {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+    
+.block-three {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: green;
+}
+
+.title-three {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.block-four {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: MAGENTA;
+}
+
+.title-four {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+iframe {
+   margin-left: 25%; 
+}
+
+.block-five {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: blue;
+}
+
+.title-five {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.block-six {
+	position: relative;
+	margin: 0;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: antiquewhite;
+}
+
+.title-six {
+    font-size: 60px;
+	font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.foto {
+    margin-left: 35%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+label, legend , select {
+    display: flex;
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.name-form {
+    display: flex;
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.text-form {
+    display: flex;
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+
+}
+
+#phone {
+    display: flex;
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+	line-height: 1;
+}
+
+.boton {
+    display: flex;
+    font-size: 40px;
+	font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+    line-height: normal;
+    background: rgb(255, 214, 127);
+}
+
+fieldset {
+    border: antiquewhite;
+}
+
+
+/* ------------------------*********---------------------- */
+
+
+/* Media Queries */
+/* Portrait and Landscape */
+
+
+/* Phones and handless */
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+            
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+
+/* ------------------------*********---------------------- */
+
+
+/* Tablets */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ------------------------*********---------------------- */
+
+/* Laptops */
+
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ------------------------*********---------------------- */
+
+/* Wereables */
+
+/* ----------- Retina Screens ----------- */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/* ----------- Apple Watch -----------
+
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm) { 
+
+} */
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto CSS</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/0/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Chelsea+Market' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="js/form.js">
+    <script src="./js/app.js" type="module"></script>
+    <script src="./js/form-contact.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/menu.js" type="module"></script>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav id="#menu-top a">
+        <ul>
+            <li class="active">
+                <a href="#Portada">Portada</a>
+            </li>
+            <li>
+                <a href="#Estudios">Estudios</a>
+            </li>
+            <li>
+                <a href="#Experiencia">Experiencia</a>
+            </li>
+            <li>
+                <a href="#Sobremi">Sobre mí</a>
+            </li>
+            <li>
+                <a href="#Quiensoy">Quien soy</a>
+            </li>
+            <li>
+                <a href="#Contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Primer bloque -->
+    <section>
+    <div class="block-one" id="Portada">
+        <h1 class="title-one">Portada</h1>
+        <p class="p-one">Una práctica del Bootcamp de KeepCoding</p>
+        <code>Lo nuestro es el código</code><br />
+        <img class="arrow" src="img/arrow.png" alt="" />
+    </div>
+    </section>
+    <!-- Fin primer bloque -->
+    
+    <!-- Segundo bloque -->
+    <section>
+    <div class="block-two" id="Estudios">
+        <h1 class="title-two">Estudios</h1>
+        <p class="p-one">Corredor de desiertos</p>
+        <p class="p-one">Lanzador de dardos</p>
+        <p class="p-one">Preparador de líos</p>
+        <p class="p-one">Acondicionador de tardes</p>
+        <p class="p-one">Colgador de cortinas</p>
+
+    </div>
+    </section>
+    <!-- Fin segundo bloque -->
+    
+    <!-- Tercer bloque -->
+    <section>
+    <div class="block-three" id="Experiencia">
+        <h1 class="title-three">Experiencia</h1>
+        <p class="p-one">Corredor de desiertos-Dos años</p>
+        <p class="p-one">Lanzador de dardos-Empezando</p>
+        <p class="p-one">Preparador de líos-Habitualmente</p>
+        <p class="p-one">Acondicionador de tardes-Todos los días</p>
+        <p class="p-one">Colgador de cortinas-1 año</p>
+    </div>
+    </section>
+    <!-- Fin tercer bloque -->
+    
+    <!-- Cuarto bloque -->
+    <section>
+    <div class="block-four" id="Sobremi">
+        <h1 class="title-four">Sobre mí</h1>
+        <iframe width="800" height="450" src="https://www.powtoon.com/embed/dyzrADIypSi/" frameborder="0"></iframe>
+
+    </div>
+    </section>
+    <!-- Fin cuarto bloque -->
+    
+    <!-- Quinto bloque -->
+    <section>
+    <div class="block-five" id="Quiensoy">
+        <h1 class="title-five">Quien soy</h1>
+        <img class="foto" src="http://i.ytimg.com/vi/WWpjfkfg1Hg/hqdefault.jpg" alt="">
+        <p class="p-two">Un habitual de la sonrisa</p>
+
+    </div>
+    </section>
+    <!-- Fin quinto bloque -->
+
+    <!-- Sexto bloque -->
+    <div class="block-six" id="Contacto">
+            <h1 class="title-six">Contacto</h1>
+            <p class="p-two">Si quieres contactar conmigo:</p>
+            <form action="">
+                    <input type="text" id="name" class="name-form" name="nombre" placeholder="Nombre" required>
+                    <input class="name-form" id="mail" type="email" name="mail"  placeholder="email@gmail.com" required="">
+                    <textarea name="message" rows="10" cols="30" class="text-form" maxlength="300" required pattern="[A-Z]{150}" placeholder="Pon un mensajito de 150 palabras"></textarea>
+                    <input type="tel" id="phone" name="phone" placeholder="123-123-123" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required />
+                    <fieldset>
+                        <p class="title-six">¿Cómo nos has conocido?</p>
+                        <label for=""><input type="checkbox" name="checkbox" id="checkbox1">Internet</label>
+                        <label for=""><input type="checkbox" name="checkbox" id="checkbox1">Buscadores</label>
+                        <label for=""><input type="checkbox" name="checkbox" id="checkbox1">GitHub</label>
+                    </fieldset>
+                    <fieldset>
+                           <legend class="toggletext toggled"><a href="#validate_by_uri">Otros</a></legend>
+                           <select id="uri-charset" name="charset">
+                                <option value="(detect automatically)" selected="selected">(elige una opción)</option>
+                                <option value="Keepcoding">Keepcoding</option>
+                                <option value="Keepcoding">Ironhack</option>
+                       
+                    </fieldset>
+                             
+                        <input class="boton" type="submit" value="Enviar">
+                </form>
+            
+        </div>
+        <!-- Fin quinto bloque -->
+    
+</body>
+</html>
